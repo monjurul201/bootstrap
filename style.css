@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 12px;
+    color: #7A7D98;
+}
+header{
+    width: 100%;
+    background-image: url(./images/background33.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   
+}
+
+section{
+    margin-bottom: 150px;
+}
+.navbar-link {
+    margin-right: 35px;
+    padding: 5px;
+    text-decoration: none;
+}
+.logo{
+    width: 120px;
+}
+
+.shop-btn{
+    transform: translateY(-7px);
+    width: 130px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    outline: none;
+    color:#FF7000;
+}
+
+.baner{
+    padding-top: 100px;
+    
+}
+.hero-image{
+    padding-right: 30px;
+    padding-top: 30px;
+    height: auto;
+    width: 80%;
+    
+}
+.hero-title{
+    font-size: 70px;
+}
+
+.primary-color{
+    color: #FF7000;
+}
+.hero-shop{
+    /* transform: translateY(-7px); */
+    width: 130px;
+    border: 1px solid #FF7000;
+    padding: 10px;
+    border-radius: 25px;
+    outline: none;
+    background-color: #FF7000;
+    color:white;
+}
+
+.border-left{
+    border-left: 2px solid #FF7000;
+}
+
+.primary-color{
+    color: #FF7000;
+    font-size: 20px;
+}
+.bg-working {
+    background-color: #F9DEC9;
+}
+.bg-working  img{
+    width: 100%;
+}
+
+.learn-more{
+    color: #FF7000;
+    cursor: pointer;
+}
+
+.bg{
+    background-image: url(images/work1.png);
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+.features-section{
+    padding: 0 200px 0 200px;
+}
+
+.features-hero div{
+padding-bottom: 15px;
+}
+.features-hero h3{
+    font-size: 20px;
+    color: #3C73F1;
+}
